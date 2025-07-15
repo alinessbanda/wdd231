@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Home Page</title>
+    <meta name="description"
+        content="This site showcases coursework and projects from Web Frontend Development I by Aliness Banda.">
+    <meta name="author" content="Aliness Banda">
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/school.svg" alt="Site logo" />
+        <span>Aliness Banda</span>
+        <button id="menu-toggle" aria-label="Open Menu">☰</button>
+    </header>
+
+    <nav id="nav-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Chamber Project</a></li>
+            <li><a href="#">Final Project</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+
+        <div class="profile-sections">
+            <section class="card about-me">
+                <h2>About Me</h2>
+                <p>
+                    My name is Aliness Banda. I was born in Zambia and currently live in South Africa with my family.
+                    I am the firstborn in a family of 3. I love singing, reading, and dancing. I'm currently studying
+                    Web and Computer Science courses to enhance my development skills.
+                </p>
+            </section>
+
+            <section class="card student-photo">
+                <h2>Student Photo</h2>
+                <img src="images/about-me.jpg" alt="Aliness Banda Photo" />
+            </section>
+        </div>
+
+        <section id="certificate-courses" class="card certificate-courses">
+            <h2>Web Certificate Courses</h2>
+            <div class="filters">
+                <button id="all">All</button>
+                <button id="cse">CSE</button>
+                <button id="wdd">WDD</button>
+            </div>
+            <div id="courses-container"></div>
+            <p>Total Credits: <span id="total-credits">0</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="https://github.com/alinessbanda" target="_blank"><img src="images/github.svg" alt="GitHub" /></a>
+            <a href="https://www.linkedin.com/in/alinessbanda" target="_blank"><img src="images/linkedin.svg"
+                    alt="LinkedIn" /></a>
+            <a href="https://facebook.com/AlinessTBanda" target="_blank"><img src="images/facebook.svg"
+                    alt="Facebook" /></a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> Aliness Banda | South Africa</p>
+        <p id="lastmodified"></p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #222;
+    background-color: #fff;
+}
+
+main,
+header,
+footer {
+    padding: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #005f73;
+    color: white;
+}
+
+header span {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#menu-toggle {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+nav {
+    background-color: #0a9396;
+    display: none;
+}
+
+nav.open {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #94d2bd;
+    color: #000;
+}
+
+main h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+.profile-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.student-photo img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.filters {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.filters button {
+    padding: 0.5rem 1rem;
+    background-color: #005f73;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filters button:hover {
+    background-color: #0a9396;
+}
+
+
+footer {
+    background-color: #001219;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer .social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+footer img {
+    width: 24px;
+    height: 24px;
+}
+
+.certificate-courses {
+    text-align: center;
+}
+
+#courses-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.course-pill {
+    padding: 0.5rem 1rem;
+    background-color: #005f73;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    cursor: default;
+}
+
+.course-pill:hover {
+    background-color: #005f73;
+}
+
+#total-credits {
+    font-weight: bold;
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+
+.filters button.active {
+    background-color: #ee9b00;
+    color: #000;
+}

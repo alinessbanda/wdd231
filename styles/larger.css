@@ -1,0 +1,59 @@
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+    }
+
+    #menu-toggle {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .profile-sections {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        align-items: flex-start;
+    }
+
+    .profile-sections .card {
+        flex: 1 1 300px;
+    }
+
+    .certificate-courses {
+        width: 100%;
+    }
+
+    #courses-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .course-card {
+        flex: 1 1 280px;
+        max-width: 300px;
+    }
+
+    .filters {
+        justify-content: center;
+    }
+}
+
+.student-photo img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+}
+
+.profile-sections {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
