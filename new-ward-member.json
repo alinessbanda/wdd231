@@ -1,0 +1,38 @@
+{
+    "family_name": "Nyika",
+    "move_in_date": "2025-07-14",
+    "number_of_people": 6,
+    "visited_by_bishopric": true,
+    "family_members": [
+        {
+            "name": "Clement Nyika",
+            "gender": "Male",
+            "birthdate": "1995-08-13"
+        },
+        {
+            "name": "Celine Nyika",
+            "gender": "Female",
+            "birthdate": "1998-03-19"
+        },
+        {
+            "name": "Marcus Nyika",
+            "gender": "Male",
+            "birthdate": "2018-03-10"
+        },
+        {
+            "name": "Jacob Nyika",
+            "gender": "Male",
+            "birthdate": "2021-05-23"
+        },
+        {
+            "name": "Marie Nyika",
+            "gender": "Female",
+            "birthdate": "2021-05-23"
+        },
+        {
+            "name": "Anna Nyika",
+            "gender": "Female",
+            "birthdate": "2023-04-25"
+        }
+    ]
+}
