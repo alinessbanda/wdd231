@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory | Lusaka Chamber of Commerce</title>
+    <meta name="description"
+        content="Directory of members for the lusaka chamber of commerce. Discover local businesses and organizations supporting the lusaka community.">
+    <meta name="author" content="Aliness Banda">
+    <meta property="og:title" content="Directory - Lusaka Chamber of Commerce">
+    <meta property="og:description"
+        content="View a full list of businesses and organizations that are members of the lusaka chamber of commerce.">
+    <meta property="og:image" content="https://alinessbanda.github.io/wdd231/chamber/images/images.jpg">
+    <meta property="og:url" content="https://alinessbanda.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+
+
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-title">
+                <img src="images/chamber-logo.svg" alt="Lusaka Chamber logo">
+                <h1>Lusaka Chamber of Commerce</h1>
+            </div>
+
+
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="directory.html" class="active">Directory</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="join.html">Join</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2>Business Directory</h2>
+        <div class="view-toggle">
+            <button id="grid-view" aria-label="Grid View">🔳 Grid</button>
+            <button id="list-view" aria-label="List View">📄 List</button>
+        </div>
+
+        <div id="members-container" class="grid"></div>
+
+    </main>
+
+    <footer>
+        <p>Contact: info@lusakachamber.org | Phone: +260 955 123 456</p>
+        <p>&copy; <span id="currentyear"></span> Lusaka Chamber of Commerce | WDD 231 | Aliness Banda</p>
+        <p id="lastmodified"></p>
+    </footer>
+</body>
+
+</html>

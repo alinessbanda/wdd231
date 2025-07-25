@@ -1,0 +1,65 @@
+[
+    {
+        "name": "ZamGrow Ltd.",
+        "address": "123 Lusaka Ave, Lusaka, Zambia",
+        "phone": "+260 971 234 567",
+        "website": "https://zamgrow.com",
+        "image": "zamgrow.png",
+        "membership": 3,
+        "industry": "Agriculture"
+    },
+    {
+        "name": "CopperNet Tech",
+        "address": "45 Tech Park Rd, Lusaka",
+        "phone": "+260 950 654 321",
+        "website": "https://coppernet.com",
+        "image": "coppernet.png",
+        "membership": 2,
+        "industry": "Technology"
+    },
+    {
+        "name": "Lusaka Eats",
+        "address": "89 Market Street, Lusaka",
+        "phone": "+260 962 223 455",
+        "website": "https://lusakaeats.co.zm",
+        "image": "lusakaeats.png",
+        "membership": 1,
+        "industry": "Food Delivery"
+    },
+    {
+        "name": "The Zambia Safari Company",
+        "address": "Lusaka, Zambia",
+        "phone": "+260 955 123 456",
+        "website": "https://www.zamsato.com",
+        "image": "zamsato.png",
+        "membership": 3,
+        "industry": "Tourism"
+    },
+    {
+        "name": "City Clothing Factory",
+        "address": "Freedom Way, Lusaka, Zambia",
+        "phone": "+260 211 222 333",
+        "website": "https://shopbwana.com/shop/city-clothing",
+        "image": "cityclothing.png",
+        "membership": 2,
+        "industry": "Clothing"
+    },
+    {
+        "name": "Solar Macs Ltd",
+        "address": "Lusaka, Zambia",
+        "phone": "+260 971 111 222",
+        "website": "https://solarmacs.com",
+        "image": "solarmacs.png",
+        "membership": 1,
+        "industry": "Renewable Energy"
+    },
+    {
+        "name": "United Bank for Africa Zambia",
+        "address": "Acacia Park, Great East Road, Lusaka",
+        "phone": "+260 211 254 000",
+        "website": "https://www.ubazambia.com",
+        "image": "ubazambia.png",
+        "membership": 3,
+        "industry": "Banking"
+    }
+]
