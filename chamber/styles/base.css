@@ -129,3 +129,59 @@ nav a:hover {
     /* Slightly lighter or darker depending on your design */
     border-color: #ccc;
 }
+
+/* === Responsive Navigation Menu === */
+#menu-toggle {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+    color: white;
+    /* Adjust to match your design */
+}
+
+#nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+#nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+#nav-menu a.active {
+    border-bottom: 2px solid yellow;
+    /* 👈 Wayfinding highlight */
+}
+
+/* === Mobile View === */
+@media screen and (max-width: 768px) {
+    #menu-toggle {
+        display: block;
+    }
+
+    #nav-menu ul {
+        flex-direction: column;
+        display: none;
+        background-color: #064d06;
+        /* Adjust to match header */
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem;
+        z-index: 10;
+    }
+
+    #nav-menu.open ul {
+        display: flex;
+    }
+}
+
+#nav-menu ul {
+    transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lusaka Chamber of Commerce - Homepage</title>
+    <meta name="description"
+        content="Welcome to the Lusaka Chamber of Commerce. Connect with local businesses, explore events, weather updates and join our mission to empower the community.">
+    <meta name="author" content="Aliness Banda">
+    <meta property="og:title" content="Lusaka Chamber of Commerce - Homepage">
+    <meta property="og:description"
+        content="Discover local businesses, get weather updates and stay informed about events in Lusaka.">
+    <meta property="og:image" content="https://alinessbanda.github.io/wdd231/chamber/images/hero.jpg">
+    <meta property="og:url" content="https://alinessbanda.github.io/wdd231/chamber/index.html">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-title">
+                <img src="images/chamber-logo.svg" alt="Lusaka Chamber Logo">
+                <h1>Lusaka Chamber of Commerce</h1>
+            </div>
+
+            <button id="menu-toggle" aria-label="Toggle Menu">☰</button>
+
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Welcome to the Lusaka Chamber of Commerce</h2>
+            <div class="hero-text">
+                <a href="join.html" class="cta-button">Join the Chamber</a>
+            </div>
+        </section>
+
+        <div class="home-section">
+            <section class="events">
+                <h2>Events</h2>
+                <ul>
+                    <li><strong>Business Networking Lunch:</strong> August 15, 2025 @ InterContinental Hotel</li>
+                    <li><strong>Women in Business Seminar:</strong> August 22, 2025</li>
+                    <li><strong>Annual Expo & Fair:</strong> September 5-7, 2025</li>
+                </ul>
+            </section>
+
+            <section class="weather">
+                <h2>Current Weather</h2>
+                <div id="weather-info">
+                    <!-- Weather info will be injected here -->
+                </div>
+            </section>
+        </div>
+
+        <section class="spotlights">
+            <h2>Business Spotlights</h2>
+            <div class="spotlight-grid" id="spotlight-container">
+                <!-- Spotlight cards injected by JS -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact: info@lusakachamber.org | Phone: +260 955 123 456</p>
+        <p>&copy; <span id="currentyear"></span> Lusaka Chamber of Commerce | WDD 231 | Aliness Banda</p>
+        <p id="lastmodified"></p>
+    </footer>
+</body>
+
+</html>
