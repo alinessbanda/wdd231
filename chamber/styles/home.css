@@ -66,3 +66,11 @@
     /* adds space on the left */
     color: #fff;
 }
+
+.spotlight-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem auto;
+    object-fit: contain;
+}
