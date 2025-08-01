@@ -4,55 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lusaka Chamber of Commerce Directory</title>
-    <meta name="description"
-        content="Directory of members for the lusaka chamber of commerce. Discover local businesses and organizations supporting the lusaka community.">
+    <title>Lusaka Chamber of Commerce - Thank You Page</title>
+    <meta name="description" content="Thank you page for form submmision">
     <meta name="author" content="Aliness Banda">
-    <meta property="og:title" content="Directory - Lusaka Chamber of Commerce">
-    <meta property="og:description"
-        content="View a full list of businesses and organizations that are members of the lusaka chamber of commerce.">
-    <meta property="og:image" content="https://alinessbanda.github.io/wdd231/chamber/images/images.jpg">
-    <meta property="og:url" content="https://alinessbanda.github.io/wdd231/chamber/directory.html">
+    <meta property="og:title" content="Thank You Page - Lusaka Chamber of Commerce">
+    <meta property="og:description" content="A thank you page for form submission">
+    <meta property="og:image" content="https://alinessbanda.github.io/wdd231/chamber/images/hero.jpg">
+    <meta property="og:url" content="https://alinessbanda.github.io/wdd231/chamber/thankyou.html">
     <meta property="og:type" content="website">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/join.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
-    <script src="scripts/directory.js" defer></script>
     <script src="scripts/date.js" defer></script>
-
-
 </head>
 
 <body>
     <header>
         <div class="header-container">
             <div class="logo-title">
-                <img src="images/chamber-logo.svg" alt="Lusaka Chamber logo">
+                <img src="images/chamber-logo.svg" alt="Lusaka Chamber Logo">
             </div>
-
+            <button id="menu-toggle" aria-label="Toggle Menu">☰</button>
             <nav id="nav-menu">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
-                    <li><a href="directory.html" class="active">Directory</a></li>
+                    <li><a href="directory.html">Directory</a></li>
                     <li><a href="join.html">Join</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <h1>Lusaka Chamber of Commerce Directory Page</h1>
-        <h2>Business Directory</h2>
-        <div class="view-toggle">
-            <button id="grid-view" aria-label="Grid View">🔳 Grid</button>
-            <button id="list-view" aria-label="List View">📄 List</button>
+        <h1>Lusaka Chamber of Commerce</h1>
+        <div class="thankyou-container">
+            <h2>Thank You for Joining!</h2>
+            <p>Your application has been successfully submitted. We'll contact you soon to confirm your membership and
+                provide additional details.</p>
+            <a href="index.html" class="btn">Return to Home</a>
         </div>
-
-        <div id="members-container" class="grid"></div>
-
     </main>
 
     <footer>
@@ -60,6 +54,7 @@
         <p>&copy; <span id="currentyear"></span> Lusaka Chamber of Commerce | WDD 231 | Aliness Banda</p>
         <p id="lastmodified"></p>
     </footer>
+
 </body>
 
 </html>
