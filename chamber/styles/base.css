@@ -41,6 +41,17 @@ footer {
     flex: 1;
 }
 
+.chamber-logo {
+    width: 50px;
+    /* Adjust size */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    filter: brightness(0) invert(1);
+    /* Makes dark logo white-like for dark backgrounds */
+}
+
+
 
 nav#nav-menu ul li a {
     display: flex;

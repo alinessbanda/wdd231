@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lusaka Chamber of Commerce Discover Page</title>
+
+  <!-- Description and Meta Properties -->
+  <meta name="description"
+    content="Explore the vibrant culture, landmarks and features of Lusaka that make it a great place to live, work and invest.">
+  <meta name="author" content="Aliness Banda">
+  <meta property="og:title" content="Discover Lusaka - Chamber of Commerce">
+  <meta property="og:description"
+    content="Learn about what Lusaka has to offer, including top attractions and highlights for visitors and members.">
+  <meta property="og:image" content="https://alinessbanda.github.io/wdd231/chamber/images/hero.jpg">
+  <meta property="og:url" content="https://alinessbanda.github.io/wdd231/chamber/discover.html">
+  <meta property="og:type" content="website">
+
+  <!-- Stylesheets and Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Scripts -->
+  <script src="scripts/discover.js" defer></script>
+  <script src="scripts/visit-message.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo-title">
+        <img src="images/chamber-logo.svg" alt="Lusaka Chamber of Commerce logo" class="chamber-logo">
+      </div>
+
+      <button id="menu-toggle" aria-label="Toggle Menu">☰</button>
+
+      <nav id="nav-menu" aria-label="Main Navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html" class="active">Discover</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-layout">
+    <!-- Sidebar with Visit Message -->
+    <aside class="sidebar">
+      <div id="visit-message" class="visit-message"></div>
+    </aside>
+
+    <!-- Main Content -->
+    <section class="discover-content">
+      <h1>Lusaka Chamber of Commerce Discover Page</h1>
+      <p>
+        Lusaka is more than just Zambia's capital — it's a hub of innovation, culture, and opportunity. Whether you're
+        visiting, investing, or considering joining the Chamber, here are a few highlights that make Lusaka unique.
+      </p>
+      <a href="join.html" class="learn-more-button">Explore chamber membership options</a>
+
+      <section aria-labelledby="discover-heading">
+        <h2 id="discover-heading">Featured Highlights</h2>
+        <div class="discover-grid" id="discover-grid">
+          <!-- JavaScript will inject 8 images/cards here -->
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact: info@lusakachamber.org | Phone: +260 955 123 456</p>
+    <p>&copy; <span id="currentyear"></span> Lusaka Chamber of Commerce | WDD 231 | Aliness Banda</p>
+    <p id="lastmodified"></p>
+  </footer>
+</body>
+
+</html>

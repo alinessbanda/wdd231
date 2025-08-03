@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Lusaka National Museum",
+        "image": "images/lusaka_museum.webp",
+        "address": "Independence Avenue, Lusaka, Zambia",
+        "description": "Explore Zambia's rich cultural history with exhibits on ethnography, art, and archaeology."
+    },
+    {
+        "title": "Kabwata Cultural Village",
+        "image": "images/kabwata_village.webp",
+        "address": "Chindo Road, Lusaka, Zambia",
+        "description": "A traditional village offering crafts, souvenirs, and cultural experiences."
+    },
+    {
+        "title": "Munda Wanga Environmental Park",
+        "image": "images/munda_wanga.webp",
+        "address": "Kafue Road, Lusaka, Zambia",
+        "description": "A wildlife sanctuary and botanical garden ideal for family outings."
+    },
+    {
+        "title": "EastPark Mall",
+        "image": "images/eastpark_mall.webp",
+        "address": "Great East Road, Lusaka, Zambia",
+        "description": "A modern shopping mall with restaurants, cinema, and retail stores."
+    },
+    {
+        "title": "Freedom Statue",
+        "image": "images/freedom_statue.webp",
+        "address": "Independence Avenue, Lusaka, Zambia",
+        "description": "A symbol of Zambia's struggle for independence and a national monument."
+    },
+    {
+        "title": "Lusaka Playhouse",
+        "image": "images/lusaka_playhouse.webp",
+        "address": "Corner of Addis Ababa and Great East Roads, Lusaka",
+        "description": "Home to live theatre, concerts, and cultural events."
+    },
+    {
+        "title": "Arcades Entertainment Complex",
+        "image": "images/arcades.webp",
+        "address": "Great East Road, Lusaka, Zambia",
+        "description": "Entertainment center with food, shopping, movies, and weekend craft market."
+    },
+    {
+        "title": "Sunday Craft Market",
+        "image": "images/craft_market.webp",
+        "address": "Arcades Mall, Lusaka, Zambia",
+        "description": "Popular local market with handmade crafts, jewelry, and art."
+    }
+]
