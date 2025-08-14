@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Little Kids Rock",
+    "description": "Provides music education to underserved schools in the U.S.",
+    "link": "https://www.littlekidsrock.org",
+    "image": "images/littlekidsrock.png"
+  },
+  {
+    "name": "Playing For Change Foundation",
+    "description": "Builds music and art schools in communities around the world.",
+    "link": "https://playingforchange.org",
+    "image": "images/playingforchange.png"
+  },
+  {
+    "name": "Youth Music UK",
+    "description": "Funds music-making projects for children and young people experiencing challenging circumstances.",
+    "link": "https://youthmusic.org.uk",
+    "image": "images/youthmusicuk.png"
+  },
+  {
+    "name": "Musicians Without Borders",
+    "description": "Uses music for peacebuilding and social change globally.",
+    "link": "https://www.musicianswithoutborders.org",
+    "image": "images/musicianswithoutborders.png"
+  },
+  {
+    "name": "Soundtrap for Education",
+    "description": "A cloud-based audio studio for collaborative music creation in schools.",
+    "link": "https://www.soundtrap.com/edu",
+    "image": "images/soundtrap.png"
+  },
+  {
+    "name": "Girls Rock Camp Alliance",
+    "description": "Supports music education and empowerment for girls and gender-diverse youth.",
+    "link": "https://www.girlsrockcampalliance.org",
+    "image": "images/girlsrock.png"
+  },
+  {
+    "name": "Berklee City Music",
+    "description": "Provides access to music education for underserved youth.",
+    "link": "https://www.berklee.edu/city-music",
+    "image": "images/berkleecitymusic.png"
+  },
+  {
+    "name": "Grammy In The Schools",
+    "description": "Offers education programs for high school students interested in music careers.",
+    "link": "https://grammyintheschools.com",
+    "image": "images/grammyintheschools.png"
+  },
+  {
+    "name": "VH1 Save The Music",
+    "description": "Restores music programs in public schools.",
+    "link": "https://www.vh1savethemusic.org",
+    "image": "images/vh1savethemusic.png"
+  },
+  {
+    "name": "Youth Empowerment Through Arts and Humanities",
+    "description": "Helps young people create music, zines, and art.",
+    "link": "https://youthvillages.org",
+    "image": "images/yetah.png"
+  },
+  {
+    "name": "Spotify Sound Up",
+    "description": "Program supporting underrepresented podcasters and creators.",
+    "link": "https://newsroom.spotify.com/2022-03-08/spotifys-sound-up-program-seeks-aspiring-podcasters-to-create-shows-geared-toward-kids-and-families/",
+    "image": "images/spotifysoundup.png"
+  },
+  {
+    "name": "Ableton for Education",
+    "description": "Music production tools and discounts for students and teachers.",
+    "link": "https://www.ableton.com/en/education/",
+    "image": "images/ableton.png"
+  },
+  {
+    "name": "UNICEF Music for Development",
+    "description": "Supports music-based youth development programs globally.",
+    "link": "https://www.unicef.org",
+    "image": "images/unicef.png"
+  },
+  {
+    "name": "Guitars in the Classroom",
+    "description": "Provides training and instruments to teachers to bring music to classrooms.",
+    "link": "https://www.guitarsintheclassroom.org",
+    "image": "images/guitarsintheclassroom.png"
+  },
+  {
+    "name": "NAMM Foundation",
+    "description": "Advocates for music education and provides grants to schools.",
+    "link": "https://www.nammfoundation.org",
+    "image": "images/nammfoundation.png"
+  },
+  {
+    "name": "The Music Workshop",
+    "description": "Free music education and workshops for schools.",
+    "link": "https://musicworkshopedu.org/",
+    "image": "images/themusicworkshop.png"
+  }
+]

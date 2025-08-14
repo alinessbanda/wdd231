@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Resources - Youth Empowerment Through Music</title>
+   <meta name="description" content="Explore tools, programs, and videos that empower youth through music.">
+   <meta name="author" content="Aliness Banda">
+   <meta property="og:title" content="Resources - Empowerment Through Music">
+   <meta property="og:description" content="Explore programs, tools and videos that empower youth music.">
+   <meta property="og:image" content="https://alinessbanda.github.io/wdd231/finalproject/images/preview.jpg">
+   <meta property="og:url" content="https://alinessbanda.github.io/wdd231/finalproject/resources.html">
+   <meta property="og:type" content="website">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+   <link rel="stylesheet" href="styles/small.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   <link rel="icon" href="favicon.ico">
+   <script src="scripts/resources.js" defer></script>
+   <script src="scripts/date.js" defer></script>
+</head>
+
+<body>
+   <header>
+      <div class="header-container">
+         <img src="images/music.svg" alt="Site logo" class="logo">
+         <button id="menu-toggle" aria-label="Open Menu">☰</button>
+         <button id="theme-toggle">Toggle Theme</button>
+
+         <nav id="nav-menu">
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="stories.html">Inspiring Stories</a></li>
+               <li><a href="resources.html" class="active">Resources</a></li>
+               <li><a href="form.html">Get Involved</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+
+   <main>
+      <h1>Youth Empowerment Through Music</h1>
+      <section class="intro">
+         <h2>Programs and Resources</h2>
+         <p>Explore over 15 resources and programs that support youth empowerment through music, including scholarships,
+            mentorships, learning platforms, and global initiatives.</p>
+      </section>
+
+      <div class="resource-grid" id="resources-container">
+         <!-- JS will inject resources here -->
+      </div>
+   </main>
+
+   <footer>
+      <p>&copy; <span id="currentyear"></span> Youth Empowerment Through Music | Aliness Banda | South Africa</p>
+      <p id="lastmodified"></p>
+   </footer>
+</body>
+
+</html>

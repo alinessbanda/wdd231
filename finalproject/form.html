@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Join a Program - Youth Empowerment Through Music</title>
+   <meta name="description" content="Sign up to participate in our youth empowerment through music programs.">
+   <meta name="author" content="Aliness Banda">
+   <meta property="og:title" content=" Join a Program - Youth Empowerment Through Music">
+   <meta property="og:description" content="Sign up to participate in our youth empowerment through music programs.">
+   <meta property="og:image" content="https://alinessbanda.github.io/wdd231/finalproject/images/preview.jpg">
+   <meta property="og:url" content="https://alinessbanda.github.io/wdd231/finalproject/form.html">
+   <meta property="og:type" content="website">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+   <link rel="stylesheet" href="styles/small.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   <link rel="icon" href="favicon.ico">
+   <script src="scripts/date.js" defer></script>
+
+</head>
+
+<body>
+   <header>
+      <div class="header-container">
+         <img src="images/music.svg" alt="Site logo" class="logo">
+         <button id="menu-toggle" aria-label="Open Menu">☰</button>
+         <button id="theme-toggle">Toggle Theme</button>
+
+         <nav id="nav-menu">
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="stories.html">Inspiring Stories</a></li>
+               <li><a href="resources.html">Resources</a></li>
+               <li><a href="form.html" class="active">Join Us</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+
+   <main>
+      <h1>Youth Empowerment Through Music</h1>
+      <section class="form-section">
+         <h2>Join a Music Empowerment Program</h2>
+         <p>Fill out the form below to sign up for one of our empowering music programs for youth.</p>
+
+         <form action="thankyou.html" method="get" class="signup-form">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number (optional):</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="age">Your Age:</label>
+            <input type="number" id="age" name="age" min="10" max="35" required>
+
+            <label for="location">City & Country:</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="interest">Area of Interest:</label>
+            <select id="interest" name="interest" required>
+               <option value="">--Please choose an option--</option>
+               <option value="singing">Singing</option>
+               <option value="instruments">Instruments</option>
+               <option value="songwriting">Songwriting</option>
+               <option value="production">Music Production</option>
+               <option value="performance">Performance Coaching</option>
+            </select>
+
+            <label for="motivation">Tell us why you want to join:</label>
+            <textarea id="motivation" name="motivation" rows="5" required></textarea>
+
+            <label>Preferred Contact Method:</label>
+            <div class="radio-group">
+               <input type="radio" id="contact-email" name="contact_method" value="email" checked>
+               <label for="contact-email">Email</label>
+
+               <input type="radio" id="contact-phone" name="contact_method" value="phone">
+               <label for="contact-phone">Phone</label>
+            </div>
+
+            <label class="checkbox">
+               <input type="checkbox" id="consent" name="consent" required>
+               I agree to be contacted and receive updates about music programs.
+            </label>
+
+            <button type="submit">Submit</button>
+         </form>
+      </section>
+   </main>
+
+   <footer>
+      <p>&copy; <span id="currentyear"></span> Youth Empowerment Through Music | Aliness Banda | South Africa</p>
+      <p id="lastmodified"></p>
+   </footer>
+
+</body>
+
+</html>

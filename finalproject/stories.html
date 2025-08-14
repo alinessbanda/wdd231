@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inspiring Stories - Youth Empowerment Through Music</title>
+  <meta name="description" content="Explore true stories of youth empowered by music.">
+  <meta name="author" content="Aliness Banda">
+  <meta property="og:title" content="Inspiring Stories - Empowerment Through Music">
+  <meta property="og:description"
+    content="Discover real-life stories of young people whose lives were transformed by the power of music.">
+  <meta property="og:image" content="https://alinessbanda.github.io/wdd231/finalproject/images/preview.jpg">
+  <meta property="og:url" content="https://alinessbanda.github.io/wdd231/finalproject/stories.html">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+  <script src="scripts/stories.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <img src="images/music.svg" alt="Site Logo" class="logo">
+      <button id="menu-toggle" aria-label="Open Menu">☰</button>
+      <button id="theme-toggle">Toggle Theme</button>
+
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="stories.html" class="active">Inspiring Stories</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="form.html">Get Involved</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h1>Youth Empowerment Through Music</h1>
+    <section class="stories-intro">
+      <h2>Inspiring Stories</h2>
+      <p>Read how music has transformed the lives of young people around the world.</p>
+    </section>
+
+    <div class="stories-grid" id="stories-container">
+      <!-- Javascript will inject cards here -->
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Youth Empowerment Through Music | Aliness Banda | South Africa</p>
+    <p id="lastmodified"></p>
+  </footer>
+</body>
+
+</html>

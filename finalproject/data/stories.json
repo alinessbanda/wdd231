@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Lebo, 17",
+    "story": "Music helped me deal with anxiety. Learning guitar gave me a way to express myself when words failed.",
+    "image": "images/lebo.jpg"
+  },
+  {
+    "name": "Amina, 15",
+    "story": "Joining a choir gave me confidence and new friends who support me.",
+    "image": "images/amina.jpg"
+  },
+  {
+    "name": "Carlos, 19",
+    "story": "Through rap and poetry, I found my voice and now mentor other teens.",
+    "image": "images/carlos.jpg"
+  },
+  {
+    "name": "Zanele, 16",
+    "story": "Writing songs became my way of healing after losing my dad.",
+    "image": "images/zanele.jpg"
+  },
+  {
+    "name": "Kwame, 18",
+    "story": "A music workshop introduced me to DJing — now I perform at school events.",
+    "image": "images/kwame.jpg"
+  },
+  {
+    "name": "Aya, 14",
+    "story": "Singing helps me manage my stutter and express myself without fear.",
+    "image": "images/aya.jpg"
+  },
+  {
+    "name": "Thabo, 17",
+    "story": "Creating beats on my phone gave me purpose and kept me off the streets.",
+    "image": "images/thabo.jpg"
+  },
+  {
+    "name": "Nia, 13",
+    "story": "Our youth music program helped me make friends and feel seen.",
+    "image": "images/nia.jpg"
+  },
+  {
+    "name": "Joseph, 20",
+    "story": "Music taught me discipline, and I now teach drums to kids in my community.",
+    "image": "images/joseph.jpg"
+  },
+  {
+    "name": "Lindiwe, 16",
+    "story": "Learning piano helped me find peace during tough family times.",
+    "image": "images/lindiwe.jpg"
+  },
+  {
+    "name": "Emeka, 19",
+    "story": "Rap battles in our center helped me build confidence and creativity.",
+    "image": "images/emeka.jpg"
+  },
+  {
+    "name": "Tumi, 15",
+    "story": "Performing in our school talent show changed how I see myself forever.",
+    "image": "images/tumi.jpg"
+  },
+  {
+    "name": "Fatima, 17",
+    "story": "Playing violin helps me stay focused on school and future goals.",
+    "image": "images/fatima.jpg"
+  },
+  {
+    "name": "Bongani, 18",
+    "story": "Our neighborhood music circle brought youth together peacefully.",
+    "image": "images/bongani.jpg"
+  },
+  {
+    "name": "Grace, 14",
+    "story": "I used to be shy, but now I help lead group singing in church.",
+    "image": "images/grace.jpg"
+  }
+]
