@@ -196,3 +196,7 @@ nav a:hover {
 #nav-menu ul {
     transition: all 0.3s ease-in-out;
 }
+
+#nav-menu.open {
+    display: block;
+}
