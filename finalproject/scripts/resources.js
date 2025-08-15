@@ -20,4 +20,4 @@ fetch('data/resources.json')
   .catch(error => {
     console.error("Error loading resources:", error);
     container.innerHTML = `<p>Resources could not be loaded at this time.</p>`;
-  });
+  }); 
